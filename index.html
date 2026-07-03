@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HopWeb — Websites, Apps & Tools, Shaped to Fit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="navbar clay">
+      <a class="logo" href="#top">
+        <span class="logo-mark"></span>
+        HopWeb
+      </a>
+      <nav class="desktop-nav">
+        <ul>
+          <li><a href="#services" class="nav-link" data-section="services">Services</a></li>
+          <li><a href="#process" class="nav-link" data-section="process">Process</a></li>
+          <li><a href="#work" class="nav-link" data-section="work">Work</a></li>
+          <li><a href="#team" class="nav-link" data-section="team">Team</a></li>
+          <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-cta">
+        <span class="nav-badge mono">⚡ Reply in 24h</span>
+        <a class="clay-btn ghost nav-secondary" href="#contact" data-action="open-detail" data-detail="timeline">Get a quote</a>
+        <a class="clay-btn" href="#contact" data-action="start-project">Start a project <span class="btn-arrow">→</span></a>
+        <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <nav class="mobile-menu clay" id="mobileMenu">
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#work">Work</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Contact</a>
+      <a class="clay-btn" href="#contact" data-action="start-project">Start a project</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="wrap hero">
+    <div class="hero-copy">
+      <span class="eyebrow"><span class="dot"></span> AVAILABLE FOR NEW PROJECTS</span>
+      <h1>We shape your idea into <span>software people open every day.</span></h1>
+      <p class="lead">HopWeb designs and builds websites, web apps, internal tools, and native Android &amp; iOS apps for teams who'd rather ship than wait.</p>
+      <div class="hero-ctas">
+        <button class="clay-btn" data-action="start-project">Start a project</button>
+        <a class="clay-btn ghost" href="#work">See our work</a>
+      </div>
+      <div class="platform-row">
+        <span class="platform-chip">web</span>
+        <span class="platform-chip">web app</span>
+        <span class="platform-chip">internal tools</span>
+        <span class="platform-chip">android</span>
+        <span class="platform-chip">ios</span>
+      </div>
+    </div>
+
+    <div class="stage">
+      <div class="stack" id="stack">
+        <div class="blob blob1"></div>
+        <div class="blob blob2"></div>
+        <div class="layer layer-browser">
+          <div class="dots"><span></span><span></span><span></span></div>
+          <div class="lines">
+            <div></div><div></div><div></div>
+          </div>
+        </div>
+        <div class="layer layer-phone">
+          <div class="notch"></div>
+          <div class="screen"></div>
+        </div>
+        <div class="layer layer-tablet">
+          <div class="grid">
+            <div class="cell"></div><div class="cell"></div>
+            <div class="cell"></div><div class="cell"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="dot"></span> WHAT WE BUILD</span>
+        <h2>One studio, every screen your product needs to be on.</h2>
+        <p>From a marketing site to a full mobile app, we keep the same team and the same design language across the whole stack — so nothing feels bolted on.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card clay reveal">
+          <div class="icon-blob" style="background:#E4EEFB;">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="14" rx="3" stroke="#1C6DD0" stroke-width="1.6"/><path d="M3 8h18" stroke="#1C6DD0" stroke-width="1.6"/><circle cx="6" cy="6" r=".6" fill="#1C6DD0"/></svg>
+          </div>
+          <h3>Websites</h3>
+          <p>Marketing sites and brand pages that load fast, read clearly, and convert — built on clean, hand-tuned code, not bloated templates.</p>
+          <span class="tag">/sites</span>
+          <button class="card-link" data-action="open-detail" data-detail="websites">Learn more →</button>
+        </div>
+
+        <div class="service-card clay reveal">
+          <div class="icon-blob" style="background:#DFF3FB;">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="8" height="8" rx="2" stroke="#4FC3E8" stroke-width="1.6"/><rect x="13" y="3" width="8" height="8" rx="2" stroke="#4FC3E8" stroke-width="1.6"/><rect x="3" y="13" width="8" height="8" rx="2" stroke="#4FC3E8" stroke-width="1.6"/><rect x="13" y="13" width="8" height="8" rx="2" stroke="#4FC3E8" stroke-width="1.6"/></svg>
+          </div>
+          <h3>Web apps</h3>
+          <p>Dashboards, customer portals, and SaaS products with the logins, billing, and data layers already wired up.</p>
+          <span class="tag">/apps</span>
+          <button class="card-link" data-action="open-detail" data-detail="webapps">Learn more →</button>
+        </div>
+
+        <div class="service-card clay reveal">
+          <div class="icon-blob" style="background:#E1ECFA;">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 17V7a2 2 0 0 1 2-2h6l2 2h6a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z" stroke="#2EA9D1" stroke-width="1.6"/></svg>
+          </div>
+          <h3>Internal tools</h3>
+          <p>Admin panels, ops dashboards, and automation tools that replace the spreadsheet your team has outgrown.</p>
+          <span class="tag">/tools</span>
+          <button class="card-link" data-action="open-detail" data-detail="tools">Learn more →</button>
+        </div>
+
+        <div class="service-card clay reveal">
+          <div class="icon-blob" style="background:#E4EEFB;">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="6" y="2.5" width="12" height="19" rx="3" stroke="#1C6DD0" stroke-width="1.6"/><path d="M6 5h12M6 18h12" stroke="#1C6DD0" stroke-width="1.6"/><circle cx="12" cy="20" r=".7" fill="#1C6DD0"/></svg>
+          </div>
+          <h3>Android apps</h3>
+          <p>Native Kotlin apps built to Material guidelines and shipped clean to the Play Store, from prototype to release.</p>
+          <span class="tag">/android</span>
+          <button class="card-link" data-action="open-detail" data-detail="android">Learn more →</button>
+        </div>
+
+        <div class="service-card clay reveal">
+          <div class="icon-blob" style="background:#DFF3FB;">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="7" y="2.5" width="10" height="19" rx="3.2" stroke="#4FC3E8" stroke-width="1.6"/><path d="M7 5.2h10M9.5 18.5h5" stroke="#4FC3E8" stroke-width="1.6"/></svg>
+          </div>
+          <h3>iOS apps</h3>
+          <p>Swift apps that feel native to iPhone and iPad, tuned for the Human Interface Guidelines and the App Store review process.</p>
+          <span class="tag">/ios</span>
+          <button class="card-link" data-action="open-detail" data-detail="ios">Learn more →</button>
+        </div>
+
+        <div class="service-card clay reveal service-card--cta">
+          <h3>Not sure which one you need?</h3>
+          <p>Tell us the problem, not the platform. We'll recommend the smallest build that solves it.</p>
+          <button class="clay-btn ghost" data-action="start-project">Talk it through</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="process">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="dot"></span> HOW A PROJECT RUNS</span>
+        <h2>Five stages, same team start to finish.</h2>
+        <p>No handoffs between a "design agency" and a "dev shop." The people who plan your build are the ones who ship it. Tap a stage for what happens in it.</p>
+      </div>
+      <div class="process">
+        <button class="step clay reveal" data-action="open-detail" data-detail="discover">
+          <span class="num">01</span><h3>Discover</h3><p>We map what the product needs to do and for whom.</p>
+        </button>
+        <button class="step clay reveal" data-action="open-detail" data-detail="design">
+          <span class="num">02</span><h3>Design</h3><p>Wireframes and visual direction, reviewed before code starts.</p>
+        </button>
+        <button class="step clay reveal" data-action="open-detail" data-detail="build">
+          <span class="num">03</span><h3>Build</h3><p>Working software in weekly increments, not a black box.</p>
+        </button>
+        <button class="step clay reveal" data-action="open-detail" data-detail="ship">
+          <span class="num">04</span><h3>Ship</h3><p>Launch to web, Play Store, or App Store with monitoring on.</p>
+        </button>
+        <button class="step clay reveal" data-action="open-detail" data-detail="support">
+          <span class="num">05</span><h3>Support</h3><p>Fixes, small iterations, and a direct line to the team.</p>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap" id="work">
+    <div class="band clay reveal">
+      <h2>Built for founders who need it live, not "eventually."</h2>
+      <div class="band-stats">
+        <button class="stat" data-action="open-detail" data-detail="platforms">
+          <div class="n" data-count="5">0</div><div class="l">platforms covered</div>
+        </button>
+        <button class="stat" data-action="open-detail" data-detail="team">
+          <div class="n" data-count="1">0</div><div class="l">team, no handoffs</div>
+        </button>
+        <button class="stat" data-action="open-detail" data-detail="timeline">
+          <div class="n" data-count-text="2–8">0</div><div class="l">week typical build</div>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="team">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="dot"></span> THE PEOPLE BEHIND IT</span>
+        <h2>One small team, every project.</h2>
+        <p>No rotating contractors. The same people scope, design, build, and support what you ship.</p>
+      </div>
+
+      <div class="team-carousel" id="teamCarousel">
+        <button class="team-nav prev" id="teamPrev" aria-label="Previous team member">‹</button>
+
+        <div class="team-stage">
+          <div class="team-track" id="teamTrack">
+
+            <div class="team-card clay">
+              <div class="team-avatar" style="background:linear-gradient(145deg,#1C6DD0,#4FC3E8);"><img src="team-aarav.jpg" alt="Aarav Kapoor" onerror="this.style.display='none'"></div>
+              <h3>Aarav Kapoor</h3>
+              <span class="team-role mono">Founder &amp; Lead Engineer</span>
+              <p>Scopes every project personally and writes the architecture for anything non-trivial. 9 years building web and mobile products.</p>
+              <div class="team-tags"><span>Full-stack</span><span>Architecture</span></div>
+            </div>
+
+            <div class="team-card clay">
+              <div class="team-avatar" style="background:linear-gradient(145deg,#2EA9D1,#1C6DD0);"><img src="team-sana.jpg" alt="Sana Rehman" onerror="this.style.display='none'"></div>
+              <h3>Sana Rehman</h3>
+              <span class="team-role mono">Product Designer</span>
+              <p>Leads every design phase from wireframe to final visual system. Background in design systems for SaaS products.</p>
+              <div class="team-tags"><span>UI/UX</span><span>Design systems</span></div>
+            </div>
+
+            <div class="team-card clay">
+              <div class="team-avatar" style="background:linear-gradient(145deg,#4FC3E8,#1C6DD0);"><img src="team-vikram.jpg" alt="Vikram Menon" onerror="this.style.display='none'"></div>
+              <h3>Vikram Menon</h3>
+              <span class="team-role mono">Android Engineer</span>
+              <p>Ships native Kotlin apps end-to-end, from prototype to Play Store release and post-launch maintenance.</p>
+              <div class="team-tags"><span>Kotlin</span><span>Material 3</span></div>
+            </div>
+
+            <div class="team-card clay">
+              <div class="team-avatar" style="background:linear-gradient(145deg,#1C6DD0,#2EA9D1);"><img src="team-priya.jpg" alt="Priya Nair" onerror="this.style.display='none'"></div>
+              <h3>Priya Nair</h3>
+              <span class="team-role mono">iOS Engineer</span>
+              <p>Builds native Swift apps tuned to Apple's Human Interface Guidelines, with a focus on smooth App Store launches.</p>
+              <div class="team-tags"><span>Swift</span><span>SwiftUI</span></div>
+            </div>
+
+            <div class="team-card clay">
+              <div class="team-avatar" style="background:linear-gradient(145deg,#4FC3E8,#2EA9D1);"><img src="team-rohan.jpg" alt="Rohan Das" onerror="this.style.display='none'"></div>
+              <h3>Rohan Das</h3>
+              <span class="team-role mono">Project &amp; Client Lead</span>
+              <p>Your single point of contact start to finish — keeps timelines honest and makes sure nothing gets lost in translation.</p>
+              <div class="team-tags"><span>Delivery</span><span>Client comms</span></div>
+            </div>
+
+          </div>
+        </div>
+
+        <button class="team-nav next" id="teamNext" aria-label="Next team member">›</button>
+      </div>
+
+      <div class="team-dots" id="teamDots"></div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="wrap contact">
+      <div class="contact-info reveal">
+        <span class="eyebrow"><span class="dot"></span> LET'S BUILD</span>
+        <h2>Tell us what you're trying to ship.</h2>
+        <p>A short description is enough to start — we'll follow up with questions and a rough estimate within two business days.</p>
+        <div class="contact-list">
+          <div><strong>EMAIL&nbsp;&nbsp;</strong> hello@claymade.studio</div>
+          <div><strong>RESPONSE&nbsp;&nbsp;</strong> within 2 business days</div>
+          <div><strong>BASED&nbsp;&nbsp;</strong> remote-first, working across time zones</div>
+        </div>
+
+        <div class="faq">
+          <button class="faq-item clay" data-action="toggle-faq">
+            <span class="faq-row"><span>What's included in a quote?</span><span class="faq-icon">+</span></span>
+            <div class="faq-body">Scope, a fixed or ranged price, a week-by-week timeline, and what we need from you to start — no surprise line items later.</div>
+          </button>
+          <button class="faq-item clay" data-action="toggle-faq">
+            <span class="faq-row"><span>How fast can you start?</span><span class="faq-icon">+</span></span>
+            <div class="faq-body">Usually within 1–2 weeks of signing, depending on current load. We'll tell you upfront if there's a queue.</div>
+          </button>
+          <button class="faq-item clay" data-action="toggle-faq">
+            <span class="faq-row"><span>Do you work with non-technical founders?</span><span class="faq-icon">+</span></span>
+            <div class="faq-body">Yes — most of our clients aren't engineers. We translate the plan into plain decisions for you at each step.</div>
+          </button>
+        </div>
+      </div>
+
+      <form class="clay reveal" id="contactForm" novalidate>
+        <div class="row2">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required>
+            <span class="field-error">Please enter your name.</span>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@company.com" required>
+            <span class="field-error">Please enter a valid email.</span>
+          </div>
+        </div>
+        <div class="field">
+          <label for="ptype">Project type</label>
+          <select id="ptype" name="ptype">
+            <option>Website</option>
+            <option>Web app</option>
+            <option>Internal tool</option>
+            <option>Android app</option>
+            <option>iOS app</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="msg">What are you building?</label>
+          <textarea id="msg" name="msg" placeholder="A few sentences is plenty." required></textarea>
+          <span class="field-error">Tell us a little about the project.</span>
+        </div>
+        <button type="submit" class="clay-btn submit-btn">Send message</button>
+        <p class="submit-msg mono" id="submitMsg">Sent — we'll get back to you within 2 business days.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-inner">
+      <div class="logo"><span class="logo-mark" style="width:24px;height:24px;border-radius:8px;"></span> HopWeb</div>
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div>© 2026 HopWeb Studio. All rights reserved.</div>
+    </div>
+  </div>
+</footer>
+
+<!-- Detail modal, populated by script.js -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal clay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+    <span class="eyebrow modal-eyebrow" id="modalEyebrow"></span>
+    <h3 id="modalTitle"></h3>
+    <p id="modalBody"></p>
+    <ul id="modalList"></ul>
+    <button class="clay-btn" id="modalCta" data-action="start-project">Start a project like this</button>
+  </div>
+</div>
+
+<button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
